@@ -1,0 +1,70 @@
+body {
+  font-family:'poppins';
+  display: inline;
+  /* text-align:center; */
+}
+h1{
+  color:red;
+  font-family:'montserrat;'
+  text-align:center;
+  font-size:40px;
+}
+h2{
+    font-family:'montserrat;'
+  text-align:center;
+  font-size:80px;
+  line-height:1em;
+  padding:0;
+}
+
+
+/* Navigaion bar */
+.container{
+  max-width:1420px;
+  margin: auto;
+}
+header.nav{
+  background-color: #EC668D;
+  padding: 3px 0;
+  vertical-align: middle;
+}
+.row {
+  display: flex;
+  vertical-align: middle;
+}
+
+.two-columns {
+  flex: 50%;
+  vertical-align: middle;
+}
+.two-column>li{
+  vertical-align: middle;
+}
+.logo-text{
+  color:white;
+}
+/* End of navigation bar */
+
+section.first-section{
+  padding:15em 0 0 0;
+  margin:0;
+  min-height: 550px;
+  background-image: url(domenico-loia-hGV2TfOh0ns-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  }
+div.one-column{
+  vertical-align: middle;
+}
+ul{
+  list-style-type:none;
+  display:flex;
+  justify-content: center;
+
+}
+ul li>a{
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 0 3px;
+  color:white;
+}
